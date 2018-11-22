@@ -1,3 +1,19 @@
 body {
   font-family: Palatino;
 }
+
+.reading_list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.reading_list div {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  padding: 10px;
+  border-width: 2px;
+  border-color: blue;
+  background-color: skyblue;
+}
